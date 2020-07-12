@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заказ туров</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="#" class="logo">
+            <img src="./img/logo.png" alt="Logo" width="250" class="logo__img" />
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <p class="about__text">
+            Приветствуем Вас на сайте заказов изумительных туров от компании FSDev. Для возможности заказа тура вашей
+            мечты - пройдите простую регистрацию.
+          </p>
+          <button type="button" class="about__btn button">Регистрация</button>
+
+          <div class="modal-backdrop">
+            <div class="modal">
+              <span class="cross" title="Закрыть форму регистрации"></span>
+              <form class="modal__form">
+                <h2 class="modal__title">Регистрация</h2>
+                <input class="modal__input js-name" type="text" name="name" placeholder="Введите Ваше имя" required />
+                <input
+                  class="modal__input js-pass"
+                  type="password"
+                  name="pass"
+                  placeholder="Ведите Ваш пароль"
+                  required
+                />
+                <input
+                  class="modal__input js-pass-repeat"
+                  type="password"
+                  name="pass"
+                  placeholder="Повторите пароль"
+                  required
+                />
+                <p class="form__subtitle">Пароли не совпадают. Попробуйте еще раз</p>
+                <button class="modal__btn button">Зарегистрироваться</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <script src="./js/task-1.js"></script> -->
+    <script src="./js/1s.js"></script>
+  </body>
+</html>
